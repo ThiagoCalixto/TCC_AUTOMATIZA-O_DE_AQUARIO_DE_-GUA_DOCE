@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "my-aquarium",
+    "slug": "my-aquarium",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon3.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1647"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0E1647"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5d468dbd-14da-41bd-8d4b-fa8c1ca43ab3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d468dbd-14da-41bd-8d4b-fa8c1ca43ab3"
+    }
+  }
+}
